@@ -1,0 +1,32 @@
+{
+  "sources": [
+    {
+      "company": "Airbus",
+      "url": "https://www.airbus.com/en/careers/students-and-graduates/interns/uk-industry-placement"
+    },
+    {
+      "company": "Leonardo",
+      "url": "https://careers.uk.leonardo.com/gb/en/early-careers/placements/industrial-internships"
+    },
+    {
+      "company": "Jaguar Land Rover",
+      "url": "https://careers.jaguarlandrover.com/early-careers/undergraduates"
+    },
+    {
+      "company": "BlackRock",
+      "url": "https://careers.blackrock.com/"
+    },
+    {
+      "company": "Goldman Sachs",
+      "url": "https://www.goldmansachs.com/careers/students/programs-and-internships/emea/summer-analyst-programme"
+    },
+    {
+      "company": "Bank of England",
+      "url": "https://www.bankofengland.co.uk/careers/future-talent/placements"
+    },
+    {
+      "company": "LSEG",
+      "url": "https://www.lseg.com/en/careers/graduate-internship-programmes/internship-programmes"
+    }
+  ]
+}
