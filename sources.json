@@ -1,0 +1,73 @@
+{
+  "settings": {
+    "uk_terms": [
+      "united kingdom",
+      "uk",
+      "london",
+      "edinburgh",
+      "manchester",
+      "bristol",
+      "cambridge",
+      "oxford",
+      "birmingham",
+      "reading",
+      "glasgow"
+    ],
+    "placement_terms": [
+      "industrial placement",
+      "placement year",
+      "year in industry",
+      "12-month",
+      "12 month",
+      "13-month",
+      "13 month",
+      "sandwich placement",
+      "undergraduate placement"
+    ],
+    "recently_closed_days": 30
+  },
+  "sources": [
+    {
+      "type": "greenhouse",
+      "company": "Verkada",
+      "token": "verkada",
+      "enabled": true
+    },
+    {
+      "type": "greenhouse",
+      "company": "DRW University",
+      "token": "drwuniversityjobs",
+      "enabled": true
+    },
+    {
+      "type": "greenhouse",
+      "company": "DRW",
+      "token": "drweng",
+      "enabled": true
+    },
+    {
+      "type": "greenhouse",
+      "company": "Cloudflare",
+      "token": "cloudflare",
+      "enabled": true
+    },
+    {
+      "type": "greenhouse",
+      "company": "Point72",
+      "token": "point72",
+      "enabled": true
+    },
+    {
+      "type": "lever",
+      "company": "Octopus Energy Group",
+      "site": "octoenergy",
+      "enabled": true
+    },
+    {
+      "type": "lever",
+      "company": "Intropic",
+      "site": "intropic",
+      "enabled": true
+    }
+  ]
+}
