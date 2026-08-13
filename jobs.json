@@ -1,0 +1,73 @@
+{
+  "updated_at": "13 August 2026",
+  "jobs": [
+    {
+      "id": "manual:blackrock:12229",
+      "company": "BlackRock",
+      "title": "2027 Placement Program - EMEA",
+      "area": "Finance",
+      "status": "Open",
+      "priority": 5,
+      "location": "London / Edinburgh",
+      "duration": "12 months",
+      "deadline": "30 Sep 2026",
+      "deadline_iso": "2026-09-30",
+      "discovered_at": "2026-06-30T00:00:00Z",
+      "last_seen_at": "2026-08-13T00:00:00Z",
+      "url": "https://careers.blackrock.com/en/job/london/2027-placement-program-emea/45831/97150826704",
+      "note": "Official 2027 BlackRock placement programme. Applications are reviewed on a rolling basis.",
+      "source_type": "manual"
+    },
+    {
+      "id": "manual:verkada:5162206007",
+      "company": "Verkada",
+      "title": "Technical Support Engineer - Industrial Placement 2027 (12-months)",
+      "area": "Engineering",
+      "status": "Open",
+      "priority": 5,
+      "location": "London",
+      "duration": "12 months",
+      "deadline": "",
+      "deadline_iso": "",
+      "discovered_at": "2026-07-30T00:00:00Z",
+      "last_seen_at": "2026-08-13T00:00:00Z",
+      "url": "https://job-boards.greenhouse.io/verkada/jobs/5162206007",
+      "note": "London industrial placement running June 2027 to June 2028.",
+      "source_type": "manual"
+    },
+    {
+      "id": "manual:deshaw:5922",
+      "company": "D. E. Shaw",
+      "title": "Systems Administrator Industry Placement Year",
+      "area": "Engineering + Finance",
+      "status": "Open",
+      "priority": 5,
+      "location": "London",
+      "duration": "12 months",
+      "deadline": "",
+      "deadline_iso": "",
+      "discovered_at": "2026-08-01T00:00:00Z",
+      "last_seen_at": "2026-08-13T00:00:00Z",
+      "url": "https://www.deshaw.com/careers/systems-administrator-industry-placement-year-london-5922",
+      "note": "12-month London industry placement expected to run June 2027 to June 2028.",
+      "source_type": "manual"
+    },
+    {
+      "id": "manual:leonardo:2027",
+      "company": "Leonardo",
+      "title": "2027 Industrial Placements",
+      "area": "Engineering",
+      "status": "Opening soon",
+      "priority": 5,
+      "location": "UK",
+      "duration": "12 months",
+      "deadline": "",
+      "deadline_iso": "",
+      "discovered_at": "2026-08-11T00:00:00Z",
+      "url": "https://careers.uk.leonardo.com/gb/en/early-careers/placements/industrial-internships",
+      "note": "Leonardo says its 2027 Industrial Placements will launch in Autumn 2026.",
+      "source_type": "manual"
+    }
+  ],
+  "source_checks": []
+}

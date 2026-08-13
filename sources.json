@@ -1,0 +1,83 @@
+{
+  "settings": {
+    "placement_terms": [
+      "industrial placement",
+      "industry placement",
+      "placement year",
+      "year in industry",
+      "sandwich placement",
+      "12-month placement",
+      "12 month placement",
+      "13-month placement",
+      "13 month placement",
+      "undergraduate placement"
+    ],
+    "uk_terms": [
+      "united kingdom",
+      " uk ",
+      "london",
+      "edinburgh",
+      "glasgow",
+      "bristol",
+      "bath",
+      "cambridge",
+      "oxford",
+      "manchester",
+      "birmingham",
+      "coventry",
+      "warwick",
+      "reading",
+      "surrey",
+      "woking",
+      "derby",
+      "filton",
+      "portsmouth",
+      "stevenage",
+      "luton",
+      "leeds"
+    ]
+  },
+  "feeds": [
+    {
+      "type": "greenhouse",
+      "company": "Verkada",
+      "board": "verkada",
+      "enabled": true
+    },
+    {
+      "type": "greenhouse",
+      "company": "Cloudflare",
+      "board": "cloudflare",
+      "enabled": true
+    },
+    {
+      "type": "greenhouse",
+      "company": "Point72",
+      "board": "point72",
+      "enabled": true
+    },
+    {
+      "type": "lever",
+      "company": "Octopus Energy",
+      "site": "octoenergy",
+      "enabled": true
+    }
+  ],
+  "official_pages": [
+    {
+      "company": "D. E. Shaw",
+      "url": "https://www.deshaw.com/careers",
+      "enabled": true
+    },
+    {
+      "company": "Leonardo",
+      "url": "https://careers.uk.leonardo.com/gb/en/early-careers/placements/industrial-internships",
+      "enabled": true
+    },
+    {
+      "company": "Airbus",
+      "url": "https://www.airbus.com/en/careers/students-and-graduates/interns/uk-industry-placement",
+      "enabled": true
+    }
+  ]
+}
