@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="UK university placement tracker for engineering and finance">
+  <title>UK Placement Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <div>
+      <div class="eyebrow">2027/28 · UNIVERSITY PLACEMENTS ONLY</div>
+      <h1>UK Placement Tracker</h1>
+      <p>Engineering + Finance placement-year opportunities. No graduate schemes.</p>
+    </div>
+    <div class="account">
+      <div id="signedOut"><button class="ghost" id="loginBtn">Sign in to track applications</button></div>
+      <div id="signedIn" class="hidden"><span id="userEmail"></span><button class="ghost" id="logoutBtn">Sign out</button></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div>
+      <div class="version">SUPABASE LIVE</div>
+      <h2>New placements, deadlines and your applications in one place.</h2>
+      <p>Roles come from the live Supabase database. Open a role for its description, requirements and priority reason, then track your application through each stage.</p>
+    </div>
+    <div class="stats">
+      <div><strong id="openCount">0</strong><span>Open roles</span></div>
+      <div><strong id="newCount">0</strong><span>New this week</span></div>
+      <div><strong id="closingCount">0</strong><span>Closing soon</span></div>
+      <div><strong id="appliedCount">0</strong><span>Applied</span></div>
+    </div>
+  </section>
+
+  <section class="pipeline" id="pipeline">
+    <button data-stage="all" class="pipe active">All</button>
+    <button data-stage="Interested" class="pipe">Interested <span id="nInterested">0</span></button>
+    <button data-stage="Applied" class="pipe">Applied <span id="nApplied">0</span></button>
+    <button data-stage="Online Test" class="pipe">Online Test <span id="nOnlineTest">0</span></button>
+    <button data-stage="Assessment Centre" class="pipe">Assessment Centre <span id="nAC">0</span></button>
+    <button data-stage="Interview" class="pipe">Interview <span id="nInterview">0</span></button>
+    <button data-stage="Offer" class="pipe offer">Offer <span id="nOffer">0</span></button>
+  </section>
+
+  <section class="filters">
+    <input id="search" type="search" placeholder="Search company, role or location…">
+    <select id="category">
+      <option value="all">Engineering + Finance</option>
+      <option value="Engineering">Engineering</option>
+      <option value="Finance">Finance</option>
+      <option value="Engineering + Finance">Crossover</option>
+    </select>
+    <select id="priority">
+      <option value="all">All priorities</option>
+      <option value="5">★★★★★ only</option>
+      <option value="4">★★★★+</option>
+      <option value="3">★★★+</option>
+    </select>
+    <select id="sort">
+      <option value="priority">Priority first</option>
+      <option value="newest">Newest first</option>
+      <option value="deadline">Deadline first</option>
+      <option value="company">Company A–Z</option>
+    </select>
+  </section>
+
+  <section class="rule"><strong>Filter rule:</strong> this tracker is for current university students seeking industrial placements, placement years, years in industry and similar 9–13 month undergraduate roles. Graduate schemes are excluded.</section>
+
+  <section class="section-head">
+    <div><h2>Placements</h2><span id="shown"></span></div>
+    <label><input type="checkbox" id="showClosed"> Show closed / monitor roles</label>
+  </section>
+
+  <div id="jobs" class="jobs"><div class="loading">Loading placements from Supabase…</div></div>
+</main>
+
+<footer class="wrap">Application and role details are stored in Supabase. Always verify the official employer page before applying.</footer>
+
+<div class="modal hidden" id="authModal"><div class="modal-card small">
+  <button class="close" data-close="authModal">×</button>
+  <h2>Track your applications</h2>
+  <p class="muted">Create an account or sign in. Your application progress is private to your account.</p>
+  <label>Email<input id="authEmail" type="email" placeholder="you@example.com"></label>
+  <label>Password<input id="authPassword" type="password" placeholder="At least 6 characters"></label>
+  <div class="auth-actions"><button class="primary" id="signInBtn">Sign in</button><button class="secondary" id="signUpBtn">Create account</button></div>
+  <p class="message" id="authMessage"></p>
+</div></div>
+
+<div class="modal hidden" id="jobModal"><div class="modal-card">
+  <button class="close" data-close="jobModal">×</button>
+  <div id="jobDetail"></div>
+</div></div>
+
+<div class="modal hidden" id="appModal"><div class="modal-card medium">
+  <button class="close" data-close="appModal">×</button>
+  <h2 id="appTitle">Track application</h2>
+  <input type="hidden" id="appPlacementId">
+  <label>Status<select id="appStatus"><option>Interested</option><option>Applied</option><option>Online Test</option><option>Assessment Centre</option><option>Interview</option><option>Offer</option><option>Rejected</option><option>Withdrawn</option><option>Ignored</option></select></label>
+  <label>Applied date<input id="appliedAt" type="date"></label>
+  <label>Next action<input id="nextAction" placeholder="e.g. Complete numerical test"></label>
+  <label>Next action date<input id="nextActionAt" type="datetime-local"></label>
+  <label>Notes<textarea id="appNotes" rows="5" placeholder="Application ID, interview prep notes, contacts…"></textarea></label>
+  <button class="primary full" id="saveApplication">Save application</button>
+  <p class="message" id="appMessage"></p>
+</div></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
