@@ -1,5 +1,5 @@
 {
-  "updated_at": "13 August 2026",
+  "updated_at": "13 August 2026 20:51 UTC",
   "jobs": [
     {
       "id": "manual:blackrock:12229",
@@ -16,23 +16,6 @@
       "last_seen_at": "2026-08-13T00:00:00Z",
       "url": "https://careers.blackrock.com/en/job/london/2027-placement-program-emea/45831/97150826704",
       "note": "Official 2027 BlackRock placement programme. Applications are reviewed on a rolling basis.",
-      "source_type": "manual"
-    },
-    {
-      "id": "manual:verkada:5162206007",
-      "company": "Verkada",
-      "title": "Technical Support Engineer - Industrial Placement 2027 (12-months)",
-      "area": "Engineering",
-      "status": "Open",
-      "priority": 5,
-      "location": "London",
-      "duration": "12 months",
-      "deadline": "",
-      "deadline_iso": "",
-      "discovered_at": "2026-07-30T00:00:00Z",
-      "last_seen_at": "2026-08-13T00:00:00Z",
-      "url": "https://job-boards.greenhouse.io/verkada/jobs/5162206007",
-      "note": "London industrial placement running June 2027 to June 2028.",
       "source_type": "manual"
     },
     {
@@ -53,6 +36,57 @@
       "source_type": "manual"
     },
     {
+      "id": "page:41b0d2b9601986",
+      "company": "D. E. Shaw",
+      "title": "icon Systems Administrator Industry Placement Year (London) : The D. E. Shaw group seeks motivated individuals with impressive records of academic and/or professional achievement to join the firm’s Systems team for a 12-month industry…",
+      "area": "Engineering",
+      "status": "Open",
+      "priority": 5,
+      "location": "UK",
+      "duration": "Placement year",
+      "deadline": "",
+      "deadline_iso": "",
+      "discovered_at": "2026-08-13T20:51:45.761062+00:00",
+      "last_seen_at": "2026-08-13T20:51:45.761062+00:00",
+      "url": "https://www.deshaw.com/careers/systems-administrator-industry-placement-year-london-5922",
+      "note": "Automatically discovered on the employer's official careers page.",
+      "source_type": "page"
+    },
+    {
+      "id": "manual:verkada:5162206007",
+      "company": "Verkada",
+      "title": "Technical Support Engineer - Industrial Placement 2027 (12-months)",
+      "area": "Engineering",
+      "status": "Open",
+      "priority": 5,
+      "location": "London",
+      "duration": "12 months",
+      "deadline": "",
+      "deadline_iso": "",
+      "discovered_at": "2026-07-30T00:00:00Z",
+      "last_seen_at": "2026-08-13T00:00:00Z",
+      "url": "https://job-boards.greenhouse.io/verkada/jobs/5162206007",
+      "note": "London industrial placement running June 2027 to June 2028.",
+      "source_type": "manual"
+    },
+    {
+      "id": "greenhouse:verkada:5162206007",
+      "company": "Verkada",
+      "title": "Technical Support Engineer - Industrial Placement 2027 (12-months)",
+      "area": "Engineering + Finance",
+      "status": "Open",
+      "priority": 5,
+      "location": "London",
+      "duration": "Placement year",
+      "deadline": "",
+      "deadline_iso": "",
+      "discovered_at": "2026-08-13T20:51:45.761062+00:00",
+      "last_seen_at": "2026-08-13T20:51:45.761062+00:00",
+      "url": "https://job-boards.greenhouse.io/verkada/jobs/5162206007",
+      "note": "Automatically discovered from the employer's public job feed.",
+      "source_type": "greenhouse"
+    },
+    {
       "id": "manual:leonardo:2027",
       "company": "Leonardo",
       "title": "2027 Industrial Placements",
@@ -69,5 +103,55 @@
       "source_type": "manual"
     }
   ],
-  "source_checks": []
+  "source_checks": [
+    {
+      "company": "Verkada",
+      "ok": true,
+      "fetched": 289,
+      "matched": 1,
+      "checked": "2026-08-13T20:51:45.761062+00:00"
+    },
+    {
+      "company": "Cloudflare",
+      "ok": true,
+      "fetched": 305,
+      "matched": 0,
+      "checked": "2026-08-13T20:51:45.761062+00:00"
+    },
+    {
+      "company": "Point72",
+      "ok": true,
+      "fetched": 230,
+      "matched": 0,
+      "checked": "2026-08-13T20:51:45.761062+00:00"
+    },
+    {
+      "company": "Octopus Energy",
+      "ok": true,
+      "fetched": 138,
+      "matched": 0,
+      "checked": "2026-08-13T20:51:45.761062+00:00"
+    },
+    {
+      "company": "D. E. Shaw",
+      "ok": true,
+      "fetched": "page",
+      "matched": 1,
+      "checked": "2026-08-13T20:51:45.761062+00:00"
+    },
+    {
+      "company": "Leonardo",
+      "ok": true,
+      "fetched": "page",
+      "matched": 0,
+      "checked": "2026-08-13T20:51:45.761062+00:00"
+    },
+    {
+      "company": "Airbus",
+      "ok": true,
+      "fetched": "page",
+      "matched": 0,
+      "checked": "2026-08-13T20:51:45.761062+00:00"
+    }
+  ]
 }
