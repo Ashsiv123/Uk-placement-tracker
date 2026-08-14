@@ -1,0 +1,15 @@
+/* Compact vertical placement cards - paste at END of style.css */
+.jobs{display:grid;grid-template-columns:repeat(auto-fill,minmax(245px,1fr));gap:14px;align-items:stretch}
+.job{min-width:0;display:flex;flex-direction:column;gap:8px;padding:16px;border-left-width:4px;border-radius:15px;height:100%}
+.job:hover{transform:translateY(-2px)}
+.company{font-size:12px;letter-spacing:.02em}.job h3{margin:3px 0 5px;font-size:16px;line-height:1.3}
+.pills{gap:5px;margin:7px 0}.pill{padding:4px 7px;font-size:9.5px}.sub{font-size:11px;line-height:1.45}
+.summary{margin:7px 0 2px;font-size:11.5px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.side{text-align:left;margin-top:auto;padding-top:10px;border-top:1px solid var(--line)}
+.priority-badge{padding:5px 7px;font-size:9px;margin:0 5px 4px 0}.stars{display:inline-block;font-size:12px}
+.priority-reason{font-size:10px;line-height:1.35;margin-top:3px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.actions{grid-template-columns:1fr 1fr;gap:6px;margin-top:9px}.detail-btn,.track-btn{padding:8px 7px;font-size:10px}.app-stage{font-size:10px;padding:6px 7px}
+@media(min-width:1050px){.jobs{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(min-width:760px) and (max-width:1049px){.jobs{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(min-width:520px) and (max-width:759px){.jobs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:519px){.jobs{grid-template-columns:1fr;margin-left:14px;margin-right:14px}.job{padding:14px}}
