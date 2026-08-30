@@ -1,5 +1,5 @@
 {
-  "updated_at": "30 August 2026 06:19 UTC",
+  "updated_at": "30 August 2026 12:19 UTC",
   "jobs": [
     {
       "id": "manual:blackrock:12229",
@@ -47,7 +47,7 @@
       "deadline": "",
       "deadline_iso": "",
       "discovered_at": "2026-08-13T20:51:45.761062+00:00",
-      "last_seen_at": "2026-08-30T06:19:13.535449+00:00",
+      "last_seen_at": "2026-08-30T12:19:25.103216+00:00",
       "url": "https://www.deshaw.com/careers/systems-administrator-industry-placement-year-london-5922",
       "note": "Automatically discovered on the employer's official careers page.",
       "source_type": "page"
@@ -81,7 +81,7 @@
       "deadline": "",
       "deadline_iso": "",
       "discovered_at": "2026-08-13T20:51:45.761062+00:00",
-      "last_seen_at": "2026-08-30T06:19:13.535449+00:00",
+      "last_seen_at": "2026-08-30T12:19:25.103216+00:00",
       "url": "https://job-boards.greenhouse.io/verkada/jobs/5162206007",
       "note": "Automatically discovered from the employer's public job feed.",
       "source_type": "greenhouse"
@@ -109,49 +109,49 @@
       "ok": true,
       "fetched": 279,
       "matched": 1,
-      "checked": "2026-08-30T06:19:13.535449+00:00"
+      "checked": "2026-08-30T12:19:25.103216+00:00"
     },
     {
       "company": "Cloudflare",
       "ok": true,
       "fetched": 309,
       "matched": 0,
-      "checked": "2026-08-30T06:19:13.535449+00:00"
+      "checked": "2026-08-30T12:19:25.103216+00:00"
     },
     {
       "company": "Point72",
       "ok": true,
       "fetched": 239,
       "matched": 0,
-      "checked": "2026-08-30T06:19:13.535449+00:00"
+      "checked": "2026-08-30T12:19:25.103216+00:00"
     },
     {
       "company": "Octopus Energy",
       "ok": true,
       "fetched": 138,
       "matched": 0,
-      "checked": "2026-08-30T06:19:13.535449+00:00"
+      "checked": "2026-08-30T12:19:25.103216+00:00"
     },
     {
       "company": "D. E. Shaw",
       "ok": true,
       "fetched": "page",
       "matched": 1,
-      "checked": "2026-08-30T06:19:13.535449+00:00"
+      "checked": "2026-08-30T12:19:25.103216+00:00"
     },
     {
       "company": "Leonardo",
       "ok": true,
       "fetched": "page",
       "matched": 0,
-      "checked": "2026-08-30T06:19:13.535449+00:00"
+      "checked": "2026-08-30T12:19:25.103216+00:00"
     },
     {
       "company": "Airbus",
       "ok": true,
       "fetched": "page",
       "matched": 0,
-      "checked": "2026-08-30T06:19:13.535449+00:00"
+      "checked": "2026-08-30T12:19:25.103216+00:00"
     }
   ]
 }
