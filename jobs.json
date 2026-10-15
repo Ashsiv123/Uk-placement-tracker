@@ -1,5 +1,5 @@
 {
-  "updated_at": "15 October 2026 04:35 UTC",
+  "updated_at": "15 October 2026 11:25 UTC",
   "jobs": [
     {
       "id": "manual:blackrock:12229",
@@ -47,7 +47,7 @@
       "deadline": "",
       "deadline_iso": "",
       "discovered_at": "2026-08-13T20:51:45.761062+00:00",
-      "last_seen_at": "2026-10-15T04:35:39.639084+00:00",
+      "last_seen_at": "2026-10-15T11:25:39.519681+00:00",
       "url": "https://www.deshaw.com/careers/systems-administrator-industry-placement-year-london-5922",
       "note": "Automatically discovered on the employer's official careers page.",
       "source_type": "page"
@@ -81,7 +81,7 @@
       "deadline": "",
       "deadline_iso": "",
       "discovered_at": "2026-08-13T20:51:45.761062+00:00",
-      "last_seen_at": "2026-10-15T04:35:39.639084+00:00",
+      "last_seen_at": "2026-10-15T11:25:39.519681+00:00",
       "url": "https://job-boards.greenhouse.io/verkada/jobs/5162206007",
       "note": "Automatically discovered from the employer's public job feed.",
       "source_type": "greenhouse"
@@ -98,7 +98,7 @@
       "deadline": "",
       "deadline_iso": "",
       "discovered_at": "2026-10-14T04:50:18.583608+00:00",
-      "last_seen_at": "2026-10-15T04:35:39.639084+00:00",
+      "last_seen_at": "2026-10-15T11:25:39.519681+00:00",
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8278702?gh_jid=8278702",
       "note": "Automatically discovered from the employer's public job feed.",
       "source_type": "greenhouse"
@@ -126,49 +126,49 @@
       "ok": true,
       "fetched": 315,
       "matched": 1,
-      "checked": "2026-10-15T04:35:39.639084+00:00"
+      "checked": "2026-10-15T11:25:39.519681+00:00"
     },
     {
       "company": "Cloudflare",
       "ok": true,
-      "fetched": 445,
+      "fetched": 441,
       "matched": 1,
-      "checked": "2026-10-15T04:35:39.639084+00:00"
+      "checked": "2026-10-15T11:25:39.519681+00:00"
     },
     {
       "company": "Point72",
       "ok": true,
-      "fetched": 224,
+      "fetched": 222,
       "matched": 0,
-      "checked": "2026-10-15T04:35:39.639084+00:00"
+      "checked": "2026-10-15T11:25:39.519681+00:00"
     },
     {
       "company": "Octopus Energy",
       "ok": true,
-      "fetched": 153,
+      "fetched": 151,
       "matched": 0,
-      "checked": "2026-10-15T04:35:39.639084+00:00"
+      "checked": "2026-10-15T11:25:39.519681+00:00"
     },
     {
       "company": "D. E. Shaw",
       "ok": true,
       "fetched": "page",
       "matched": 1,
-      "checked": "2026-10-15T04:35:39.639084+00:00"
+      "checked": "2026-10-15T11:25:39.519681+00:00"
     },
     {
       "company": "Leonardo",
       "ok": true,
       "fetched": "page",
       "matched": 0,
-      "checked": "2026-10-15T04:35:39.639084+00:00"
+      "checked": "2026-10-15T11:25:39.519681+00:00"
     },
     {
       "company": "Airbus",
       "ok": true,
       "fetched": "page",
       "matched": 0,
-      "checked": "2026-10-15T04:35:39.639084+00:00"
+      "checked": "2026-10-15T11:25:39.519681+00:00"
     }
   ]
 }
