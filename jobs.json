@@ -1,5 +1,5 @@
 {
-  "updated_at": "16 October 2026 16:36 UTC",
+  "updated_at": "16 October 2026 21:05 UTC",
   "jobs": [
     {
       "id": "manual:blackrock:12229",
@@ -47,7 +47,7 @@
       "deadline": "",
       "deadline_iso": "",
       "discovered_at": "2026-08-13T20:51:45.761062+00:00",
-      "last_seen_at": "2026-10-16T16:36:50.849313+00:00",
+      "last_seen_at": "2026-10-16T21:05:24.028235+00:00",
       "url": "https://www.deshaw.com/careers/systems-administrator-industry-placement-year-london-5922",
       "note": "Automatically discovered on the employer's official careers page.",
       "source_type": "page"
@@ -81,25 +81,8 @@
       "deadline": "",
       "deadline_iso": "",
       "discovered_at": "2026-08-13T20:51:45.761062+00:00",
-      "last_seen_at": "2026-10-16T16:36:50.849313+00:00",
+      "last_seen_at": "2026-10-16T21:05:24.028235+00:00",
       "url": "https://job-boards.greenhouse.io/verkada/jobs/5162206007",
-      "note": "Automatically discovered from the employer's public job feed.",
-      "source_type": "greenhouse"
-    },
-    {
-      "id": "greenhouse:cloudflare:8278702",
-      "company": "Cloudflare",
-      "title": "Senior Talent Acquisition Business Partner - GTM",
-      "area": "Engineering + Finance",
-      "status": "Open",
-      "priority": 3,
-      "location": "Hybrid",
-      "duration": "Placement year",
-      "deadline": "",
-      "deadline_iso": "",
-      "discovered_at": "2026-10-14T04:50:18.583608+00:00",
-      "last_seen_at": "2026-10-16T16:36:50.849313+00:00",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/8278702?gh_jid=8278702",
       "note": "Automatically discovered from the employer's public job feed.",
       "source_type": "greenhouse"
     },
@@ -118,57 +101,75 @@
       "url": "https://careers.uk.leonardo.com/gb/en/early-careers/placements/industrial-internships",
       "note": "Leonardo says its 2027 Industrial Placements will launch in Autumn 2026.",
       "source_type": "manual"
+    },
+    {
+      "id": "greenhouse:cloudflare:8278702",
+      "company": "Cloudflare",
+      "title": "Senior Talent Acquisition Business Partner - GTM",
+      "area": "Engineering + Finance",
+      "status": "Closed",
+      "priority": 3,
+      "location": "Hybrid",
+      "duration": "Placement year",
+      "deadline": "",
+      "deadline_iso": "",
+      "discovered_at": "2026-10-14T04:50:18.583608+00:00",
+      "last_seen_at": "2026-10-16T16:36:50.849313+00:00",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8278702?gh_jid=8278702",
+      "note": "Automatically discovered from the employer's public job feed.",
+      "source_type": "greenhouse",
+      "closed_at": "2026-10-16T21:05:24.028235+00:00"
     }
   ],
   "source_checks": [
     {
       "company": "Verkada",
       "ok": true,
-      "fetched": 318,
+      "fetched": 319,
       "matched": 1,
-      "checked": "2026-10-16T16:36:50.849313+00:00"
+      "checked": "2026-10-16T21:05:24.028235+00:00"
     },
     {
       "company": "Cloudflare",
       "ok": true,
       "fetched": 437,
-      "matched": 1,
-      "checked": "2026-10-16T16:36:50.849313+00:00"
+      "matched": 0,
+      "checked": "2026-10-16T21:05:24.028235+00:00"
     },
     {
       "company": "Point72",
       "ok": true,
       "fetched": 221,
       "matched": 0,
-      "checked": "2026-10-16T16:36:50.849313+00:00"
+      "checked": "2026-10-16T21:05:24.028235+00:00"
     },
     {
       "company": "Octopus Energy",
       "ok": true,
       "fetched": 165,
       "matched": 0,
-      "checked": "2026-10-16T16:36:50.849313+00:00"
+      "checked": "2026-10-16T21:05:24.028235+00:00"
     },
     {
       "company": "D. E. Shaw",
       "ok": true,
       "fetched": "page",
       "matched": 1,
-      "checked": "2026-10-16T16:36:50.849313+00:00"
+      "checked": "2026-10-16T21:05:24.028235+00:00"
     },
     {
       "company": "Leonardo",
       "ok": true,
       "fetched": "page",
       "matched": 0,
-      "checked": "2026-10-16T16:36:50.849313+00:00"
+      "checked": "2026-10-16T21:05:24.028235+00:00"
     },
     {
       "company": "Airbus",
       "ok": true,
       "fetched": "page",
       "matched": 0,
-      "checked": "2026-10-16T16:36:50.849313+00:00"
+      "checked": "2026-10-16T21:05:24.028235+00:00"
     }
   ]
 }
